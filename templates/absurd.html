@@ -11,11 +11,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <style>
+    
     @media(max-width: 500px) {
       .reverse-columns {
         flex-direction: column-reverse;
         display: flex;
       }
+    }
+    .button.is-primary {
+      background-color: DBAD6A;
     }
 
     .titled {
@@ -36,6 +40,10 @@
       background-position: center;
       background-size: cover;
       background-color: #212931;
+    }
+    #background 
+    {
+      background-color: #212931
     }
   </style>
 </head>
@@ -80,25 +88,25 @@
           <div class="column
           is-10-mobile 
           is-10-tablet 
-          is-5-desktop 
+          is-5-desktop
           is-5-widescreen 
           is-5-fullhd " data-aos="fade-down">
-            <h1 class="title titled is-1 mb-6">
+            <h1 class="title titled is-1 mb-6 is-white">
               Evolving business with technology
             </h1>
             <div class="buttons">
-              <button class="button is-yellow">Esablished technical teams</button>
+              <button class="button is-primary">Esablished technical teams</button>
               <button class="button">Less-technical teams</button>
             </div>
           </div>
           <div data-aos="fade-right" class="column
           is-10-mobile 
           is-10-tablet 
-          is-4-desktop 
-          is-7-widescreen 
-          is-4-fullhd is-offset-1-fullhd">
+          is-6-desktop 
+          is-6-widescreen 
+          is-6-fullhd is-offset-1-fullhd">
             <figure class="image is-square">
-              <img src="../images/people-solving-a-puzzle.png">
+              <img src="../images/people-building-a-site.svg">
             </figure>
           </div>
 
@@ -107,9 +115,39 @@
     </div>
   </section>
 
-  <section class="hero is-white is-fullheight">
+  <section class="hero is-fullheight" id=background>
     <div class="hero-body">
-      <div class="container">
+      <div class="container is-vcentered">
+        <div class="columns">
+          <div class="box">
+            <h2>
+              We design limited scope, technology centric 
+              transformations that can be delivered within days.
+            </h2>
+            <figure class="image is-128x128">
+              <img src="../images/woman-and-book.svg">
+            </figure>
+          </div>
+          <div class="box">
+            <h2>
+              We coach agile from first principles - 
+              the Agile Manifesto
+            </h2>
+            <figure class="image is-128x128 is-centered">
+              <img src="../images/people-building-a-puzzle.svg">
+            </figure>
+          </div>
+          <div class="box">
+            <h2>
+              Short-term, high impact 
+              technology adoption programs
+            </h2>
+            <figure class="image is-128x128 is-centered">
+              <img src="../images/people-at-a-meeting.svg">
+            </figure>
+          </div>
+        </div>
+
         <div class="columns  is-vcentered">
           <div data-aos="fade-left" class="column
           is-10-mobile is-offset-1-mobile
