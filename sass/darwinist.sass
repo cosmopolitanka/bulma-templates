@@ -3,27 +3,52 @@
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
-// Set your brand colors
-$purple: #8A4D76;
-$pink: #FA7C91;
-$brown: #757763;
-$beige-light: #D0D1CD;
-$beige-lighter: #EFF0EB;
+// Colors
+
+// Background color
+$bg-grey:      #212931;
+
+$black:        hsl(0, 0%, 4%) !default
+$black-bis:    hsl(0, 0%, 7%) !default
+$black-ter:    hsl(0, 0%, 14%) !default
+
+$grey-darker:  hsl(0, 0%, 21%) !default
+$grey-dark:    hsl(0, 0%, 29%) !default
+$grey:         hsl(0, 0%, 48%) !default
+$grey-light:   hsl(0, 0%, 71%) !default
+$grey-lighter: hsl(0, 0%, 86%) !default
+$grey-lightest: hsl(0, 0%, 93%) !default
+
+$white-ter:    hsl(0, 0%, 96%) !default
+$white-bis:    hsl(0, 0%, 98%) !default
+$white:        hsl(0, 0%, 100%) !default
+
+$orange:       hsl(14,  100%, 53%) !default
+$yellow:       hsl(44,  100%, 77%) !default
+$green:        hsl(153, 53%,  53%) !default
+$turquoise:    hsl(171, 100%, 41%) !default
+$cyan:         hsl(207, 61%,  53%) !default
+$blue:         hsl(229, 53%,  53%) !default
+$purple:       hsl(271, 100%, 71%) !default
+$red:          hsl(348, 86%, 61%) !default
 
 // Update Bulma's global variables
-$family-sans-serif: "Nunito", sans-serif;
-$grey-dark: $brown;
-$grey-light: $beige-light;
-$primary: $purple;
-$link: $pink;
-$widescreen-enabled: false;
-$fullhd-enabled: false;
+$primary: $yellow !default
+$info: $cyan !default
+$success: $green !default
+$warning: $yellow !default
+$danger: $red !default
+$light: $white-ter !default
+$dark: $grey-darker !default
+
 
 // Update some of Bulma's component variables
-$body-background-color: $beige-lighter;
+$body-background-color: $bg-grey;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
+$title-color: $white-ter;
+
 
 
 @import "../node_modules/bulma/bulma.sass";
