@@ -51,6 +51,12 @@
     .fa-3x {
         font-size: 2.15em;
     }
+
+    .has-equal-height {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
   </style>
 </head>
 
@@ -196,7 +202,6 @@
            is-6-desktop is-offset-1-desktop
            is-6-widescreen is-offset-1-widescreen
            is-6-fullhd is-offset-1-fullhd" >
-            <figure class="image">
               <img src="images/coding-panel.jpg">
             </figure>
           </div>
@@ -208,69 +213,144 @@
   <section class="hero is-fullheight">
     <div class="hero-body">
       <div class="container">
-        <div class="tile is-ancestor">
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">Middle tile</p>
-              <p class="subtitle">With an image</p>
-              <figure class="image">
-                <img src="images/jenkins-logo.png">
-              </figure>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">Middle tile</p>
-              <p class="subtitle">With an image</p>
-              <figure class="image">
-                <img src="images/git-lab-logo.png">
-              </figure>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">Middle tile</p>
-              <p class="subtitle">With an image</p>
-              <figure class="image">
-                <img src="images/github-logo.png">
-              </figure>
-            </article>
-          </div>
-        </div>
-
-        <div class="tile is-ancestor">
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">Middle tile</p>
-              <p class="subtitle">With an image</p>
-              <figure class="image">
-                <img src="images/microsoft-azure-logo.png">
-              </figure>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">Middle tile</p>
-              <p class="subtitle">With an image</p>
-              <figure class="image">
-                <img src="images/google-cloud-logo.png">
-              </figure>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">Middle tile</p>
-              <p class="subtitle">With an image</p>
-              <figure class="image ">
-                <img src="images/amazon-web-logo.png">
-              </figure>
-            </article>
+        <div class="columns is-multiline">
+            <div class="columns is-centered">
+              <div class="column">
+                <div class="card has-equal-height">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="images/azure-card.png">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <p class="content">
+                      Suitable for a team that is already using 
+                      programming languages such as Python or R 
+                      that need a more formalised development process. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="card has-equal-height">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="images/kubernetes-card.png">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <p class="content">
+                      A development team that is ready to take full 
+                      control of their deployments and application 
+                      lifecycle. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="card has-equal-height">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="images/git-card.png">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <p class="content">
+                      Suitable for a team that is already using 
+                      programming languages such as Python or R 
+                      that need a more formalised development process. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="card has-equal-height">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="images/aws-card.png">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <p class="content">
+                      A development or Analytics team that 
+                      wants to start using AWS for storage and 
+                      processing of data.   
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="columns is-centered">
+              <div class="column">
+                <div class="card has-equal-height">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="images/elastic-card.png">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <p class="content">
+                      A team that is already using programming 
+                      languages such as Python or R that need 
+                      to have a more formalised development process.  
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="card has-equal-height">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="images/mysql-card.png">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <p class="content">
+                      A team that is already using programming 
+                      languages such as Python or R that need 
+                      to have a more formalised development process. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="card has-equal-height">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="images/postgres-card.png">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <p class="content">
+                      A team that is already using programming 
+                      languages such as Python or R that need to
+                      have a more formalised development process. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="card has-equal-height">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="images/python-card (1).png">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <p class="content">
+                      A team of people using Microsoft Excel or other 
+                      similar tools. There is a lot of manual work with 
+                      an ever increasing error rate. Some of my team 
+                      have expressed an interest in learning to code.  
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
-    
+    </div>    
   </section>
 
   <section class="hero is-medium has-text-centered">
